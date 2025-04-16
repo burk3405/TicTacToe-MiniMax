@@ -26,3 +26,22 @@ Expected Outcomes:
 -Recommendations for improving MiniMax efficiency in real-time decision-making environments.
 -This project will provide a practical exploration of game-theoretic decision-making using Tic-Tac-Toe as a testbed, bridging the gap between formal 
  algorithmic analysis and real-world application.
+
+
+
+
+
+# Research Paper Portion
+It is understood that Tic-Tac-Toe is a game played on a three-by-three grid by two players, who alternate placing the marks X and O in one of nine available spaces on the grid. The convention used in this paper is that the first player always uses the mark X, and the second player always uses the mark O. It is also understood that once a player places their mark on a space, that space can no longer be occupied by another future mark. 
+
+There are 765 essentially different positions (state space complexity).
+There are 26,830 possible games.
+If played optimally by both players, the game will always end in a draw, making Tic-Tac-Toe a futile game. 
+
+138 terminal board positions.
+When X goes first:
+91 distinct positions are won by X.
+44 distinct positions are won by O.
+3 distinct positions are drawn.
+
+
